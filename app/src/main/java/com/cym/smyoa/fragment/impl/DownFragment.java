@@ -17,8 +17,8 @@ public class DownFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view=inflater.inflate(R.layout.doingfragment,container, false);
-        return super.onCreateView(inflater, container, savedInstanceState);
+        View view=inflater.inflate(R.layout.downfragment,container, false);
+        return view ;
     }
 
 }

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -36,13 +36,15 @@
 
         <!-- ARCmenu -->
 
-        <TextView
+        <ImageView
             android:id="@+id/tv_arcmenu"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+
             android:layout_gravity="center"
+            android:background="@drawable/btn_quickoption_pressed"
             android:contentDescription="@null"
-            android:text="十" />
+           />
     </FrameLayout>
 </LinearLayout>
 

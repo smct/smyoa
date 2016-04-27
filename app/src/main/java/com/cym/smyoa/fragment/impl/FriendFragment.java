@@ -18,6 +18,6 @@ public class FriendFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view=inflater.inflate(R.layout.friendfragment,container,false);
-        return super.onCreateView(inflater, container, savedInstanceState);
+        return view ;
     }
 }
